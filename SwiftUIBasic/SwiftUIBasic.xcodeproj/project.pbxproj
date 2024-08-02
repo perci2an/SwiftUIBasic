@@ -22,6 +22,13 @@
 		1A74ABDE2C5B2B5600620603 /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74ABDD2C5B2B5600620603 /* StackBasic.swift */; };
 		1A74ABE02C5B2EA100620603 /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74ABDF2C5B2EA100620603 /* PaddingBasic.swift */; };
 		1A74ABE22C5B48A500620603 /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74ABE12C5B48A500620603 /* SpacerBasic.swift */; };
+		1AF1904C2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1904B2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift */; };
+		1AF1904E2C5C7D5100A7A8E3 /* InitEnumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1904D2C5C7D5100A7A8E3 /* InitEnumBasic.swift */; };
+		1AF190502C5C821000A7A8E3 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1904F2C5C821000A7A8E3 /* ForEachLoopBasic.swift */; };
+		1AF190522C5C838500A7A8E3 /* LazyGridBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF190512C5C838500A7A8E3 /* LazyGridBasic.swift */; };
+		1AF190542C5C994200A7A8E3 /* IgnoreSafeAreaBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF190532C5C994200A7A8E3 /* IgnoreSafeAreaBasic.swift */; };
+		1AF190562C5C9ADC00A7A8E3 /* ButtonBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF190552C5C9ADC00A7A8E3 /* ButtonBasic.swift */; };
+		1AF190582C5C9E2200A7A8E3 /* StateBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF190572C5C9E2200A7A8E3 /* StateBasic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +68,13 @@
 		1A74ABDD2C5B2B5600620603 /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		1A74ABDF2C5B2EA100620603 /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		1A74ABE12C5B48A500620603 /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
+		1AF1904B2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
+		1AF1904D2C5C7D5100A7A8E3 /* InitEnumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitEnumBasic.swift; sourceTree = "<group>"; };
+		1AF1904F2C5C821000A7A8E3 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
+		1AF190512C5C838500A7A8E3 /* LazyGridBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridBasic.swift; sourceTree = "<group>"; };
+		1AF190532C5C994200A7A8E3 /* IgnoreSafeAreaBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaBasic.swift; sourceTree = "<group>"; };
+		1AF190552C5C9ADC00A7A8E3 /* ButtonBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBasic.swift; sourceTree = "<group>"; };
+		1AF190572C5C9E2200A7A8E3 /* StateBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBasic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +130,13 @@
 				1A4729DB2C58E22D00058E9E /* TextBasic.swift */,
 				1A4729DD2C58E66200058E9E /* ShapeBasic.swift */,
 				1A74ABE12C5B48A500620603 /* SpacerBasic.swift */,
+				1AF1904B2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift */,
+				1AF1904D2C5C7D5100A7A8E3 /* InitEnumBasic.swift */,
+				1AF1904F2C5C821000A7A8E3 /* ForEachLoopBasic.swift */,
+				1AF190512C5C838500A7A8E3 /* LazyGridBasic.swift */,
+				1AF190532C5C994200A7A8E3 /* IgnoreSafeAreaBasic.swift */,
+				1AF190552C5C9ADC00A7A8E3 /* ButtonBasic.swift */,
+				1AF190572C5C9E2200A7A8E3 /* StateBasic.swift */,
 				1A4729DF2C58EB8000058E9E /* ColorBasic.swift */,
 				1A4729E12C58F4E000058E9E /* GradientBasic.swift */,
 				1A4729B42C58CFEF00058E9E /* Assets.xcassets */,
@@ -283,14 +304,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF190502C5C821000A7A8E3 /* ForEachLoopBasic.swift in Sources */,
 				1A4729E22C58F4E000058E9E /* GradientBasic.swift in Sources */,
+				1AF190522C5C838500A7A8E3 /* LazyGridBasic.swift in Sources */,
 				1A4729DC2C58E22D00058E9E /* TextBasic.swift in Sources */,
 				1A74ABE22C5B48A500620603 /* SpacerBasic.swift in Sources */,
 				1A4729B32C58CFEE00058E9E /* ContentView.swift in Sources */,
 				1A74ABDE2C5B2B5600620603 /* StackBasic.swift in Sources */,
+				1AF190542C5C994200A7A8E3 /* IgnoreSafeAreaBasic.swift in Sources */,
+				1AF1904C2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift in Sources */,
 				1A4729DE2C58E66200058E9E /* ShapeBasic.swift in Sources */,
+				1AF190562C5C9ADC00A7A8E3 /* ButtonBasic.swift in Sources */,
 				1A4729E02C58EB8000058E9E /* ColorBasic.swift in Sources */,
+				1AF190582C5C9E2200A7A8E3 /* StateBasic.swift in Sources */,
 				1A74ABDC2C5B264D00620603 /* BackgroundOverlayBasic.swift in Sources */,
+				1AF1904E2C5C7D5100A7A8E3 /* InitEnumBasic.swift in Sources */,
 				1A74ABE02C5B2EA100620603 /* PaddingBasic.swift in Sources */,
 				1A4729B12C58CFEE00058E9E /* SwiftUIBasicApp.swift in Sources */,
 			);
