@@ -22,6 +22,11 @@
 		1A74ABDE2C5B2B5600620603 /* StackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74ABDD2C5B2B5600620603 /* StackBasic.swift */; };
 		1A74ABE02C5B2EA100620603 /* PaddingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74ABDF2C5B2EA100620603 /* PaddingBasic.swift */; };
 		1A74ABE22C5B48A500620603 /* SpacerBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A74ABE12C5B48A500620603 /* SpacerBasic.swift */; };
+		1AC219502C60593200CA8087 /* ExtractSubViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2194F2C60593200CA8087 /* ExtractSubViewBasic.swift */; };
+		1AC219522C6059F900CA8087 /* ExtractUIViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC219512C6059F900CA8087 /* ExtractUIViewBasic.swift */; };
+		1AE92B062C605A5C001E2BE7 /* ItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE92B052C605A5C001E2BE7 /* ItemBasic.swift */; };
+		1AE92B082C605D6C001E2BE7 /* BindingBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE92B072C605D6C001E2BE7 /* BindingBasic.swift */; };
+		1AE92B0A2C605D9E001E2BE7 /* BindingChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE92B092C605D9E001E2BE7 /* BindingChild.swift */; };
 		1AF1904C2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1904B2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift */; };
 		1AF1904E2C5C7D5100A7A8E3 /* InitEnumBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1904D2C5C7D5100A7A8E3 /* InitEnumBasic.swift */; };
 		1AF190502C5C821000A7A8E3 /* ForEachLoopBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1904F2C5C821000A7A8E3 /* ForEachLoopBasic.swift */; };
@@ -68,6 +73,11 @@
 		1A74ABDD2C5B2B5600620603 /* StackBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBasic.swift; sourceTree = "<group>"; };
 		1A74ABDF2C5B2EA100620603 /* PaddingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingBasic.swift; sourceTree = "<group>"; };
 		1A74ABE12C5B48A500620603 /* SpacerBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerBasic.swift; sourceTree = "<group>"; };
+		1AC2194F2C60593200CA8087 /* ExtractSubViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubViewBasic.swift; sourceTree = "<group>"; };
+		1AC219512C6059F900CA8087 /* ExtractUIViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractUIViewBasic.swift; sourceTree = "<group>"; };
+		1AE92B052C605A5C001E2BE7 /* ItemBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBasic.swift; sourceTree = "<group>"; };
+		1AE92B072C605D6C001E2BE7 /* BindingBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBasic.swift; sourceTree = "<group>"; };
+		1AE92B092C605D9E001E2BE7 /* BindingChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingChild.swift; sourceTree = "<group>"; };
 		1AF1904B2C5C7A6B00A7A8E3 /* ScrollViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBasic.swift; sourceTree = "<group>"; };
 		1AF1904D2C5C7D5100A7A8E3 /* InitEnumBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitEnumBasic.swift; sourceTree = "<group>"; };
 		1AF1904F2C5C821000A7A8E3 /* ForEachLoopBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachLoopBasic.swift; sourceTree = "<group>"; };
@@ -125,6 +135,7 @@
 		1A4729AF2C58CFEE00058E9E /* SwiftUIBasic */ = {
 			isa = PBXGroup;
 			children = (
+				1AC2194F2C60593200CA8087 /* ExtractSubViewBasic.swift */,
 				1A4729B02C58CFEE00058E9E /* SwiftUIBasicApp.swift */,
 				1A4729B22C58CFEE00058E9E /* ContentView.swift */,
 				1A4729DB2C58E22D00058E9E /* TextBasic.swift */,
@@ -142,9 +153,12 @@
 				1A4729B42C58CFEF00058E9E /* Assets.xcassets */,
 				1A74ABDB2C5B264D00620603 /* BackgroundOverlayBasic.swift */,
 				1A74ABDD2C5B2B5600620603 /* StackBasic.swift */,
+				1AC219532C605A1400CA8087 /* Component */,
 				1A74ABDF2C5B2EA100620603 /* PaddingBasic.swift */,
 				1A4729B62C58CFEF00058E9E /* SwiftUIBasic.entitlements */,
 				1A4729B72C58CFEF00058E9E /* Preview Content */,
+				1AC219512C6059F900CA8087 /* ExtractUIViewBasic.swift */,
+				1AE92B072C605D6C001E2BE7 /* BindingBasic.swift */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -172,6 +186,15 @@
 				1A4729CE2C58CFEF00058E9E /* SwiftUIBasicUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIBasicUITests;
+			sourceTree = "<group>";
+		};
+		1AC219532C605A1400CA8087 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1AE92B052C605A5C001E2BE7 /* ItemBasic.swift */,
+				1AE92B092C605D9E001E2BE7 /* BindingChild.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +329,8 @@
 			files = (
 				1AF190502C5C821000A7A8E3 /* ForEachLoopBasic.swift in Sources */,
 				1A4729E22C58F4E000058E9E /* GradientBasic.swift in Sources */,
+				1AC219502C60593200CA8087 /* ExtractSubViewBasic.swift in Sources */,
+				1AE92B062C605A5C001E2BE7 /* ItemBasic.swift in Sources */,
 				1AF190522C5C838500A7A8E3 /* LazyGridBasic.swift in Sources */,
 				1A4729DC2C58E22D00058E9E /* TextBasic.swift in Sources */,
 				1A74ABE22C5B48A500620603 /* SpacerBasic.swift in Sources */,
@@ -316,8 +341,11 @@
 				1A4729DE2C58E66200058E9E /* ShapeBasic.swift in Sources */,
 				1AF190562C5C9ADC00A7A8E3 /* ButtonBasic.swift in Sources */,
 				1A4729E02C58EB8000058E9E /* ColorBasic.swift in Sources */,
+				1AE92B082C605D6C001E2BE7 /* BindingBasic.swift in Sources */,
 				1AF190582C5C9E2200A7A8E3 /* StateBasic.swift in Sources */,
 				1A74ABDC2C5B264D00620603 /* BackgroundOverlayBasic.swift in Sources */,
+				1AC219522C6059F900CA8087 /* ExtractUIViewBasic.swift in Sources */,
+				1AE92B0A2C605D9E001E2BE7 /* BindingChild.swift in Sources */,
 				1AF1904E2C5C7D5100A7A8E3 /* InitEnumBasic.swift in Sources */,
 				1A74ABE02C5B2EA100620603 /* PaddingBasic.swift in Sources */,
 				1A4729B12C58CFEE00058E9E /* SwiftUIBasicApp.swift in Sources */,
